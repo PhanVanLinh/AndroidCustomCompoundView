@@ -8,7 +8,15 @@
     <com.example.framgia.androidcustomagroupview.CustomView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#f00"
         app:image="@drawable/ic_android"
-        app:text="AA" />
+        app:text="Android" />
+
+    <com.example.framgia.androidcustomagroupview.CustomView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0f0"
+        app:image="@drawable/ic_adb"
+        app:text="ADB" />
 
 </LinearLayout>

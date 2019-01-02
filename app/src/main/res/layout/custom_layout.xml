@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
-    android:gravity="center"
-    >
+    tools:parentTag="android.support.constraint.ConstraintLayout">
 
     <ImageView
-        android:id="@+id/image"
+        android:id="@+id/image_thumb"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:src="@mipmap/ic_launcher"
-        tools:ignore="ContentDescription" />
+        tools:ignore="ContentDescription"
+        tools:src="@mipmap/ic_launcher" />
 
     <TextView
-        android:id="@+id/text"
+        android:id="@+id/text_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="Text"
-        />
+        app:layout_constraintEnd_toEndOf="@id/image_thumb"
+        app:layout_constraintStart_toStartOf="@id/image_thumb"
+        app:layout_constraintTop_toBottomOf="@id/image_thumb"
+        tools:text="Text" />
 
-</LinearLayout>
+</merge>
