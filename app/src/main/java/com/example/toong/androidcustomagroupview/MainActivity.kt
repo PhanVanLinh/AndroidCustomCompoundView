@@ -1,4 +1,4 @@
-package com.example.framgia.androidcustomagroupview
+package com.example.toong.androidcustomagroupview
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle

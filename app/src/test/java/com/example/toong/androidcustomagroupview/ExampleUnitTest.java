@@ -1,4 +1,4 @@
-package com.example.framgia.androidcustomagroupview;
+package com.example.toong.androidcustomagroupview;
 
 import org.junit.Test;
 

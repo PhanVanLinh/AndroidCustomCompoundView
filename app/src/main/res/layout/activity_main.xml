@@ -5,14 +5,14 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.example.framgia.androidcustomagroupview.CustomView
+    <com.example.toong.androidcustomagroupview.CustomView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#f00"
         app:image="@drawable/ic_android"
         app:text="Android" />
 
-    <com.example.framgia.androidcustomagroupview.CustomView
+    <com.example.toong.androidcustomagroupview.CustomView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#0f0"
